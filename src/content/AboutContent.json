@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Reach your Target Market",
+  "text": "Through collaborative filtering on geographical interest data, we ensure your ad will reach your selected target audience.",
   "section": [
     {
-      "title": "Why Antd?",
+      "title": "Collaborative Filtering",
       "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Geographical Interest Data",
+      "content": "We know what our users are interested in, and through geographical mapping, we know the best locations to target.",
       "icon": "notes.svg"
     }
   ]
