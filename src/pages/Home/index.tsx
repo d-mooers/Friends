@@ -23,12 +23,13 @@ const Home = () => {
         button={IntroContent.button}
         icon="developer.svg"
         id="intro"
+        showButton={false}
       />
-      <MiddleBlock
+      {/* <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
-      />
+      /> */}
       <ContentBlock
         type="left"
         title={AboutContent.title}
@@ -36,15 +37,17 @@ const Home = () => {
         section={AboutContent.section}
         icon="graphs.svg"
         id="about"
+        showButton={true}
       />
       <ContentBlock
         type="right"
         title={MissionContent.title}
         content={MissionContent.text}
         icon="product-launch.svg"
-        id="mission"
+        id="contact"
+        showButton={true}
       />
-      <ContentBlock
+      {/* <ContentBlock
         type="left"
         title={ProductContent.title}
         content={ProductContent.text}
@@ -55,7 +58,7 @@ const Home = () => {
         title={ContactContent.title}
         content={ContactContent.text}
         id="contact"
-      />
+      /> */}
     </Container>
   );
 };

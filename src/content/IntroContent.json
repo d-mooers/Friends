@@ -1,13 +1,9 @@
 {
   "title": "Lets be Friends!",
-  "text": "An app made by people, for people.",
+  "text": "Powering and incentivising in-person social interaction. Meet your customers at their most vulnerable, and only meet the exact kinds of customers you want to.",
   "button": [
     {
       "title": "Explore"
-    },
-    {
-      "title": "Learn more",
-      "color": "#fff"
     }
   ]
 }

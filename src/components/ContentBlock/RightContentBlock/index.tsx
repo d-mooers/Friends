@@ -18,6 +18,7 @@ const RightBlock = ({
   icon,
   t,
   id,
+  showButton,
 }: ContentBlockProps) => {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
@@ -38,12 +39,14 @@ const RightBlock = ({
                   button.map((item: any, id: number) => {
                     return (
                       <Button
-                        key={id}
-                        color={item.color}
-                        fixedWidth={true}
-                        onClick={() => scrollTo("about")}
+                        onClick={() =>
+                          window.open(
+                            "https://docs.google.com/forms/d/e/1FAIpQLScnAfSLJjce_qRyaukTAI8C2ziv4bCVKVDoZFru_nKjCv7p1Q/viewform?usp=sf_link",
+                            "_blank"
+                          )
+                        }
                       >
-                        {t(item.title)}
+                        Sign Up!
                       </Button>
                     );
                   })}
