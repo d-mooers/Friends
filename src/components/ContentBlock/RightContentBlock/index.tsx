@@ -20,12 +20,6 @@ const RightBlock = ({
   id,
   showButton,
 }: ContentBlockProps) => {
-  const scrollTo = (id: string) => {
-    const element = document.getElementById(id) as HTMLDivElement;
-    element.scrollIntoView({
-      behavior: "smooth",
-    });
-  };
   return (
     <RightBlockContainer>
       <Fade direction="right">
