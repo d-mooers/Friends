@@ -35,12 +35,12 @@ const RightBlock = ({
                       <Button
                         onClick={() =>
                           window.open(
-                            "https://docs.google.com/forms/d/e/1FAIpQLScnAfSLJjce_qRyaukTAI8C2ziv4bCVKVDoZFru_nKjCv7p1Q/viewform?usp=sf_link",
+                            "https://ozzycabob.wixsite.com/my-site-3",
                             "_blank"
                           )
                         }
                       >
-                        Sign Up!
+                        Try it Out!
                       </Button>
                     );
                   })}
